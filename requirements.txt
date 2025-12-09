@@ -1,0 +1,12 @@
+numpy<2.0
+sounddevice
+requests
+openai-agents
+insightface==0.7
+onnxruntime
+opencv-python
+fastapi
+uvicorn
+boto3
+pillow
+python-telegram-bot

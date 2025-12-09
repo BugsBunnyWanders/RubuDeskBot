@@ -1,0 +1,110 @@
+# Arduino/ESP32 build files
+*.hex
+*.bin
+*.elf
+*.map
+*.lst
+*.sym
+*.o
+*.a
+
+# Build directories
+build/
+*.build/
+.build/
+
+# VS Code / PlatformIO
+.vscode/
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Arduino IDE
+*.ino.globals.h
+*.ino.cpp
+*.ino.with_bootloader.bin
+*.ino.bin
+*.ino.elf
+*.ino.map
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# Python cache
+*.pyc
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.local
+*.env
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+
+# Dependencies
+node_modules/
+
+# Credentials (important!)
+credentials.json
+config.json
+secrets.json
+
+# Camera captures / test images in pending folder
+images/pending/*.jpg
+images/pending/*.jpeg
+images/pending/*.png
+
+# Model files (can be large)
+*.h5
+*.pb
+*.onnx
+*.pth
+*.pt
+models/
+
+# Data files
+*.csv
+*.db
+*.sqlite
+*.sqlite3
+
+# WiFi credentials backup
+wifi_backup.txt
